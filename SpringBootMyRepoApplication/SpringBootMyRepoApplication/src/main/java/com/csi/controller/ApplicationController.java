@@ -25,8 +25,11 @@ public class ApplicationController {
  }
 
 
-
-
+@GetMapping("/address")
+    public String sayAddress()
+   {
+    return "Insperia Mall|Pune";
+   }
 
 }
 
