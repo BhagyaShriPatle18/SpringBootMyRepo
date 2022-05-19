@@ -19,4 +19,15 @@ public class ApplicationController {
     public String sayServices(){
         return "Software Engineering";
     }
+ @GetMapping("/products")
+    public String sayProducts(){
+        return "Apple iPhone 12";
+ }
+
+
+
+
+
 }
+
+
